@@ -1,0 +1,30 @@
+{
+    "$origin": "michael-lee.com.",
+    "$ttl": 3600,
+    "soa": {
+        "mname": "ns1.michael-lee.com.",
+        "rname": "admin.michael-lee.com.",
+        "serial": "{time}",
+        "refresh": 3600,
+        "retry": 600,
+        "expire": 604800,
+        "minimum": 86400
+    },
+    "ns": [
+        { "host": "ns1.michael-lee.com." },
+        { "host": "ns2.michael-lee.com." }
+    ],
+    "a": [
+        { "name": "@", "ttl": 400, "value": "255.255.255.255" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "127.0.0.1" },
+        { "name": "@", "ttl": 400, "value": "10.10.10.10" }
+    ],
+    "cname": [
+        { "name": "michael-lee.com.", "ttl": 400, "value": "example.michael-lee.com." },
+        { "name": "michael-lee.com.", "ttl": 400, "value": "lee-michael.com." },
+        { "name": "michael-lee.com.", "ttl": 400, "value": "example.canonical-michael.com." },
+        { "name": "michael-lee.com.", "ttl": 400, "value": "lee.com." }
+    ]
+}
